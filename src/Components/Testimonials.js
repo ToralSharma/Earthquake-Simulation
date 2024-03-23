@@ -1,9 +1,8 @@
 import React from 'react'
-import ProfilePic from "../Assets/photo.jpg";
 import { AiFillStar } from "react-icons/ai";
 const Testimonials = () => {
   return (
-    <div className="work-section-wrapper">
+    <div className="work-section-wrapper" id="Testimonials">
         <div className="work-section-top">
         <p className="primary-subheading">Testimonial</p>
         <h1 className="primary-heading"  style={{ color: 'black'}}>Our Mentor</h1>

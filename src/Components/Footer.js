@@ -12,21 +12,20 @@ const Footer = () => {
         <div className="footer-logo-container">
           <img src={Logo} alt="" />
         </div>
-        <div className="footer-icons">
+        {/* <div className="footer-icons">
           <BsTwitter />
           <SiLinkedin />
           <BsYoutube />
           <FaFacebookF />
-        </div>
+        </div> */}
+      </div>
+      <div>
+      <h2   style={{ color: 'black' }}>For more questions</h2>
+      <br></br>
+      <a href="mailto:ritikaagarwal111222@gmail.com">our mail</a>
       </div>
       <div className="footer-section-two">
-        <div className="footer-section-columns">
-          <span>Run</span>
-          <span>About</span>
-          <span>Working</span>
-          <span>Review</span>
-          <span>Contact</span>
-        </div>
+        
         <div className="footer-section-columns">
           <span>khushi.dadheech05@gmail.com</span>
           <span>deepika9017.saxena@gmail.com</span>

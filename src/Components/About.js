@@ -6,7 +6,7 @@ import { BsFillPlayCircleFill } from "react-icons/bs";
 
 const About = () => {
   return (
-    <div className='about-section-container'>
+    <div className='about-section-container' id="About">
          <div className="about-background-image-container">
         <img src={AboutBackground} alt="" />
       </div>
@@ -25,12 +25,7 @@ const About = () => {
         timely evacuation plans, reinforcing infrastructure resilience, and minimizing casualties and 
         economic losses through early warning systems and preparedness measures.
         </p>
-        <div className="about-buttons-container">
-          <button className="secondary-button">Learn More</button>
-          <button className="watch-video-button">
-            <BsFillPlayCircleFill /> Watch Video
-          </button>
-        </div>
+        
       </div>
     </div>
   )

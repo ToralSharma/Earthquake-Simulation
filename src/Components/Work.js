@@ -12,28 +12,30 @@ const Work = () => {
         },
         {
           image: ChooseMeals,
-          title: "Preprocessing",
-          text: "Filtering and reformatting of the acquired data by MATLAB.",
+          title: "Visualization",
+          text: "Earthquake visualization on the website is accomplished through interactive graphical representation using data points and mapping techniques.",
         },
         {
           image: DeliveryMeals,
-          title: "Feature extraction",
-          text: "Reducing the initial set of raw data to more manageable groups for processing.",
+          title: "Simulation",
+          text: "Earthquake simulation on the website is achieved through dynamic modeling, simulating seismic activity based on user interactions.",
         },
         {
           image: neuralNetworks,
-          title: "Neural Network Training and Testing",
-          text: "Network constructed with different configurations is trained and tested using Back-propagation.",
+          title: "Model Training",
+          text: "Model training for earthquake prediction on the website is accomplished through MATLAB, utilizing algorithms and datasets to train predictive models for seismic events.",
         },
       ];
     return (
-    <div className="work-section-wrapper">
+
+    <div className="work-section-wrapper" id="work">
         <div className="work-section-top">
         <p className="primary-subheading">Work</p>
         <h1 className="primary-heading"  style={{ color: 'black'}}>How It Works</h1>
         <p className="primary-text">
-          By analyzing seismic datasets using Neural Networks we created a model. 
-          We used NN hidden layers with feedforward technique to eliminate error in earthquake prediction.
+          By analyzing seismic datasets using Neural Networks, we created various graphs representing the Himalayan Alpine belt. 
+          We are showcasing the graphs for different regions using various factors.
+
           Model consists of four phases
         </p>
       </div>
@@ -50,6 +52,7 @@ const Work = () => {
       </div>
     </div>
   )
+       
 }
 
 export default Work
