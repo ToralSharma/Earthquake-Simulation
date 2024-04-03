@@ -6,6 +6,7 @@ import Testimonials from "./Components/Testimonials";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Predict from "./Components/Predict";
+import Pred2 from "./Components/Pred2";
 
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
@@ -22,14 +23,16 @@ function App() {
                   <Home />
                   <Work />
                   <About />
-                  
-                  {/* <Testimonials />
-                  <Contact /> */}
+                  <Contact />
                   <Footer />
                 </>
               }
             />
+            <Route path="/work" element={<Work />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="predict" element={<Predict />} />
+            <Route path="pred2" element={<Pred2 />} />
         </Routes>
       </BrowserRouter>
     </div>

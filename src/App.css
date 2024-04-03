@@ -94,6 +94,8 @@
     max-width: 500px;
     color: #6a6a6a;
     margin: 1.5rem 0rem;
+    text-align: left;
+    align-items: left;
   }
   .secondary-button {
     padding: 1rem 2.5rem;
@@ -148,6 +150,17 @@
     margin-top: 2rem;
     display: flex;
   }
+  .pred2-container {
+    display: flex;
+    justify-content: flex-end;
+
+  }                            
+  .dropdown-container {
+      margin-left: auto;
+      align-items: left;
+      margin-top: -20px;
+  }
+
   /* .watch-video-button {
     margin-left: 2rem;
     background-color: transparent;

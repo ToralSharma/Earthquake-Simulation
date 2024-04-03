@@ -16,7 +16,7 @@ import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Pred2Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
   const menuOptions = [
         {
@@ -34,11 +34,6 @@ const Navbar = () => {
             icon: <CommentRoundedIcon />,
             path: "/"
           },
-          {
-            text: "Contact us",
-            icon: <PhoneRoundedIcon />,
-            path: "/contact"
-        },
           /*{
             text: "Testimonial",
             icon: <PhoneRoundedIcon />,
@@ -56,14 +51,8 @@ const Navbar = () => {
       </div>
       <div className="navbar-links-container">
         <a href="/">Home</a>
-        
-        <a href="#work">How It Works</a>
-        {/* <a href="#Testimonials">Testimonials</a> */}
-        <a href="#About">About</a>
-        {/* <a href="#contact">Contact us</a> */}
-        <a href="#contact-us-section">Contact us</a>
-        <Link to="/predict"> <a href="">
-        <button className="primary-button">Visualise Now</button>
+        <Link to="/pred2"> <a href="">
+        <button className="primary-button">Predict Now</button>
         </a></Link>
       </div>
       <div className="navbar-menu-container">
@@ -96,4 +85,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Pred2Navbar
