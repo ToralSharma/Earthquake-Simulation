@@ -3,6 +3,7 @@ import BannerBackground from "../Assets/home-banner-background.png";
 import BannerImage from "../Assets/quack1.png";
 import { FiArrowRight } from "react-icons/fi";
 import Navbar from './Navbar';
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -20,7 +21,9 @@ const Home = () => {
             Stay ahead of seismic shifts with lightning-fast visualisations , ensuring accuracy before the
             ground even begins to rumble.
           </p>
+          <Link to="/pred2">
           <button className="primary-button" style={{ backgroundColor: 'orange' }}>Predict Now</button>
+          </Link>
         </div>
         <div className="home-image-section">
           <img src={BannerImage} alt="" />

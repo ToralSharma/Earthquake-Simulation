@@ -19,11 +19,11 @@ const Footer = () => {
           <FaFacebookF />
         </div> */}
       </div>
-      <div>
+      {/* <div>
       <h2   style={{ color: 'black' }}>For more questions</h2>
       <br></br>
       <a href="mailto:ritikaagarwal111222@gmail.com">our mail</a>
-      </div>
+      </div> */}
       <div className="footer-section-two">
         
         <div className="footer-section-columns">
