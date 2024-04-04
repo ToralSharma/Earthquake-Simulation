@@ -60,7 +60,6 @@ const Navbar = () => {
         <a href="#work">How It Works</a>
         {/* <a href="#Testimonials">Testimonials</a> */}
         <a href="#About">About</a>
-        {/* <a href="#contact">Contact us</a> */}
         <a href="#contact-us-section">Contact us</a>
         <Link to="/predict"> <a href="">
         <button className="primary-button">Visualise Now</button>
