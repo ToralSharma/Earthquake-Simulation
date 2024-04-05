@@ -18,7 +18,7 @@ const Work = () => {
         {
           image: DeliveryMeals,
           title: "Simulation",
-          text: "Earthquake simulation on the website is achieved through dynamic modeling, simulating seismic activity based on user interactions.",
+          text: "Earthquake simulation on the website is achieved through modeling, simulating seismic activity based on user interactions.",
         },
         {
           image: neuralNetworks,

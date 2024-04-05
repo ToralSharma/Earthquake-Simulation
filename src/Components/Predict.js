@@ -130,8 +130,8 @@ const Predict = () => {
       <div className="home-banner-container" style={{ display: "flex", flexDirection: "column" }}>
       <div className="pred2-container">
         <p className="primary-text" style={{ textAlign: "left", marginBottom: "20px" }}>
-        Our interactive graphs and maps provide a clear and intuitive representation of earthquake data, including magnitude, location, and frequency. Visualize seismic trends effortlessly, empowering you to analyze patterns, monitor seismic activity, and make informed decisions for safety and preparedness. 
-        Select the required place from the Himalayan-Alpine-Indonesian belt in the Indian subcontinent.
+        VISUALIZATION: Our interactive graphs and maps provide a clear and intuitive representation of earthquake data, including magnitude, location, and frequency. Visualize seismic trends effortlessly, empowering you to analyze patterns, monitor seismic activity, and make informed decisions for safety and preparedness. 
+        Select the required place from the Himalayan-Alpine-Indonesian belt in the Indian subcontinent:
         </p>
         <div className="dropdown-container">
           <select value={region} onChange={handleRegionChange} style={{ padding: "10px", fontSize: "16px", marginBottom: "20px" }}>
