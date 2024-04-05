@@ -124,7 +124,8 @@ const Pred2 = () => {
       <div className="home-banner-container" style={{ display: "flex", flexDirection: "column" }}>
         <div className="pred2-container">
         <p className="primary-text" style={{ textAlign: "left", marginBottom: "20px" }}>
-        The predicted values plotting for the depth-frequency graph and magnitude-time graph, generated using a neural network ML model, provide visual insights into seismic activity. The depth-frequency graph illustrates the distribution of earthquakes at different depths over time, while the magnitude-time graph displays the occurrence of earthquakes of varying magnitudes over time. These plots offer a concise representation of seismic trends.
+        PREDICTION: The predicted values plotting for the depth-frequency graph and magnitude-time graph, generated using a neural network ML model, provide visual insights into seismic activity. The depth-frequency graph illustrates the distribution of earthquakes at different depths over time, while the magnitude-time graph displays the occurrence of earthquakes of varying magnitudes over time. These plots offer a concise representation of seismic trends.
+        Select the required place from the Himalayan-Alpine-Indonesian belt in the Indian subcontinent:
         </p>
         <div className="dropdown-container">
           <select value={region} onChange={handleRegionChange} style={{ padding: "10px", fontSize: "16px", marginBottom: "20px"}}>
