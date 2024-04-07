@@ -62,7 +62,7 @@ const Navbar = () => {
         <a href="#About">About</a>
         <a href="#contact-us-section">Contact us</a>
         <Link to="/predict"> <a href="">
-        <button className="primary-button">Visualise Now</button>
+        <button className="primary-button" id="visual">Visualise Now</button>
         </a></Link>
       </div>
       <div className="navbar-menu-container">
