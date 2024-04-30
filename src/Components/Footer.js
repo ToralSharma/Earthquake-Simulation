@@ -29,8 +29,9 @@ const Footer = () => {
         <div className="footer-section-columns">
           <span>khushi.dadheech05@gmail.com</span>
           <span>deepika9017.saxena@gmail.com</span>
+        <span>ritikaagarwal111222@gmail.com</span>
           <span>toralsharma2003@gmail.com</span>
-          <span>ritikaagarwal111222@gmail.com</span>
+          
         </div>
       </div>
     </div>
